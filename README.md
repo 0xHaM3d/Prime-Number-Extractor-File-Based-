@@ -24,7 +24,7 @@ This Python script reads numbers from a `.txt` file, identifies which ones are p
 
 2. Run the script via your terminal:
     ```Bash
-    python prime_extractor.py
+    python main.py
     ```
 
 3. The prime numbers will be generated in a new file named `prime_numbers.txt`.
