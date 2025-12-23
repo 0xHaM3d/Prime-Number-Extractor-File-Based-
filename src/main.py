@@ -5,6 +5,11 @@
 import math
 
 def is_prime(num: int) -> bool:
+    """Defining the prime digits
+
+    :param num: Prime Numbers 
+    :return: True False
+    """
     if num <= 1:
         return False
 
@@ -16,6 +21,11 @@ def is_prime(num: int) -> bool:
 
 
 def extract_primes(input_file: str, output_file: str):
+    """Setting output and input files
+
+    :param input_file: a txt file contining numbers with one number per line
+    :param output_file: A txt file contining extracing prime numbers from input file
+    """
     primes = []
 
     with open(input_file, "r", encoding="utf-8") as file:
